@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elecciones> <!-- He decido poner este de elemento raíz porque engloba toda la información de las elecciones -->
+    <Informacion>
+        <fecha>26/10/2026</fecha>
+        <ncolegios>2</ncolegios>
+        <nvotantes>100</nvotantes>
+    </Informacion>
+    <colegio1>
+        <nombre>IES ALISAL</nombre>
+        <mesas>
+            <mesanumero1>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero1>
+            <mesanumero2>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero2>
+        </mesas>
+        <nmesas>2</nmesas>
+        <votantesxmesa>25</votantesxmesa>
+    </colegio1>
+    <colegio2> <!-- dentro de este colegio se encuentran los datos de las mesas y los miembros de cada mesa -->
+        <nombre>Leonardo Torres Quevedo</nombre>
+        <mesas>
+            <mesanumero1>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero1>
+            <mesanumero2>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero2>
+        </mesas>
+        <nmesas>2</nmesas>
+        <votantesxmesa>25</votantesxmesa>
+    </colegio2>
+</elecciones>
