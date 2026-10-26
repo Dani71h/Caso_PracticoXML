@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mobiliario>
-<mesas>
+<mobiliario> <!-- he decidido poner este de elemento raíz porque engloba toda la información del mobiliario -->
+<mesas> 
     <mesa1 id="1" stock="5" unidad="cm"> <!-- he decidido poner el atributo unidad para que se pueda cambiar la unidad de medida de las mesas, sillas, armarios y camas -->
         <largo>1.5</largo>
         <ancho>0.8</ancho>
