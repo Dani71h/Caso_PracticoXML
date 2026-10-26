@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mobiliario> <!-- he decidido poner este de elemento raíz porque engloba toda la información del mobiliario -->
-<mesas> 
-    <mesa1 id="1" stock="5" unidad="cm"> <!-- he decidido poner el atributo unidad para que se pueda cambiar la unidad de medida de las mesas, sillas, armarios y camas -->
+<mobiliario>
+<mesas>
+    <mesa1 id="1" stock="5" unidad="cm">
         <largo>1.5</largo>
         <ancho>0.8</ancho>
-        <alto>0.75</alto>   
+        <alto>0.75</alto>
     </mesa1>
     <mesa2 id="2" stock="3" unidad="cm">
         <largo>1.5</largo>
@@ -16,7 +16,7 @@
         <ancho>0.8</ancho>
         <alto>0.75</alto>
     </mesa3>
-    <mesa4 id="4" stock="0" unidad="cm"> <!-- he decidido poner el atributo stock para que se pueda saber cuantas mesas, sillas, armarios y camas hay en stock -->
+    <mesa4 id="4" stock="0" unidad="cm">
         <largo>1.5</largo>
         <ancho>0.8</ancho>
         <alto>0.75</alto>
@@ -28,7 +28,7 @@
     </mesa5>
 </mesas>
 <sillas>
-    <silla1 id="1" stock="10" unidad="cm"> <!-- he decidido poner el atributo unidad para que se pueda cambiar la unidad de medida de las mesas, sillas, armarios y camas -->
+    <silla1 id="1" stock="10" unidad="cm">
         <largo>0.5</largo>
         <ancho>0.5</ancho>
         <alto>1</alto>
@@ -45,24 +45,24 @@
         <ancho>1</ancho>
         <alto>2</alto>
     </armario1>
-    <armario2 id="2" stock="0" unidad="cm">
+    <armario2 id="2" stock="0">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>2</alto>
     </armario2>
-    <armario3 id="3" stock="0" unidad="cm">
+    <armario3 id="3" stock="0">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>2</alto>
     </armario3>
 </armarios>
 <camas>
-    <cama1 id="1" stock="0" unidad="cm">
+    <cama1 id="1" stock="0">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>0.5</alto>
     </cama1>
-    <cama2 id="2" stock="0" unidad="cm">
+    <cama2 id="2" stock="0">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>0.5</alto>
