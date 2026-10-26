@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conjunto> <!-- era necesario esto ya que sino no tendriamos un atributo raiz que engloba a todo-->
+    <elecciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="elecciones.xsd">
+        <Informacion <!-- esto esta mal ya que no esta cerrado-->
+            <fecha>26/10/2026</fecha>
+            <ncolegios>2</ncolegios>
+            <nvotantes>100</nvotantes>
+        </Informacion>
+        <colegio1 <!-- aqui tambien falta por cerrar ya que abajo lo esta pero arriba no-->
+            <nombre>IES ALISAL</nombre>
+            <mesas>
+                <mesanumero1>
+                    <presidente>Donald Trump </presidente>
+                    <vocal1> Vladimir Putin </vocal1>
+                    <vocal2> Albert Einstein </vocal2>
+                </mesanumero1>
+                <mesanumero2>
+                    <presidente>Donald Trump </presidente>
+                    <vocal1> Vladimir Putin </vocal1>
+                    <vocal2> Albert Einstein </vocal2>
+                </mesanumero2>
+            </mesas>
+            <nmesas>2</nmesas>
+            <votantesxmesa>25</votantesxmesa>
+        </colegio1>
+        <colegio2> <!-- dentro de este colegio se encuentran los datos de las mesas y los miembros de cada mesa -->
+         <nombre>Leonardo Torres Quevedo</nombre>
+         <mesas>
+            <mesanumero1>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero1>
+            <mesanumero2>
+                <presidente>Donald Trump </presidente>
+                <vocal1> Vladimir Putin </vocal1>
+                <vocal2> Albert Einstein </vocal2>
+            </mesanumero2>
+        </mesas>
+        <nmesas>2</nmesas>
+        <votantesxmesa>25</votantesxmesa>
+        </colegio2>
+    </elecciones>
+    <mobiliario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mobiliario.xsd">
+        <mesas>
+            <mesa1 id="1" stock="5" unidad="cm">
+                <largo>1.5</largo>
+                <ancho>0.8</ancho>
+                <alto>0.75</alto>
+            </mesa1>
+            <mesa2 id="2" stock="3" unidad="cm">
+                <largo>1.5</largo>
+                <ancho>0.8</ancho>
+                <alto>0.75</alto>
+            </mesa2>
+            <mesa3 id="3" stock="2 unidad="cm"> <-- aqui falta las comillas por cerrar
+            <largo>1.5</largo>
+            <ancho>0.8</ancho>
+            <alto>0.75</alto>
+            </mesa3>
+            <mesa4 id="4" stock="0" unidad="cm">
+                <largo>1.5</largo>
+                <ancho>0.8</ancho>
+                <alto>0.75</alto>
+            </mesa4>
+            <mesa5 id="5" stock="0" unidad="cm">
+                <largo>1.5</largo>
+                <ancho>0.8</ancho>
+                <alto>0.75</alto>
+            </mesa5>
+        </mesas>
+        <sillas>
+            <silla1 id="1" stock="10" unidad="cm">
+                <largo>0.5</largo>
+                <ancho>0.5</ancho>
+                <alto>1</alto>
+            </silla1>
+            <silla2 id="2" stock="5" unidad="cm">
+                <largo>0.5</largo>
+                <ancho>0.5</ancho>
+                <alto>1</alto>
+            </silla2>
+        </sillas>
+        <armarios>
+            <armario1 id="1" stock="3" unidad="cm">
+                <largo>2</largo>
+                <ancho>1</ancho>
+                <alto>2</alto>
+            </armario1>
+            <armario2 id="2" stock="0" unidad="cm">
+                <largo>2</largo>
+                <ancho>1</ancho>
+                <alto>2</alto>
+            </armario2>
+            <armario3 id="3" stock="0" unidad="cm">
+                <largo>2</largo>
+                <ancho>1</ancho>
+                <alto>2</alto>
+            </armario3>
+        </armarios>
+        <camas>
+            <cama1 id="1" stock="0" unidad="cm">
+                <largo>2</largo>
+                <ancho>1</ancho>
+                <alto>0.5</alto>
+            </cama1>
+            <cama2 id="2" stock="0" unidad="cm">
+                <largo>2</largo>
+                <ancho>1</ancho>
+                <alto>0.5</alto>
+            </cama2>
+        </camas>
+    </mobiliario>
+</conjunto>
