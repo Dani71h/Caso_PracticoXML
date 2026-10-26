@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mobiliario>
 <mesas>
-    <mesa1 id="1" stock="5" unidad="cm">
+    <mesa1 id="1" stock="5" unidad="cm"> <!-- he decidido poner el atributo unidad para que se pueda cambiar la unidad de medida de las mesas, sillas, armarios y camas -->
         <largo>1.5</largo>
         <ancho>0.8</ancho>
         <alto>0.75</alto>   
@@ -16,7 +16,7 @@
         <ancho>0.8</ancho>
         <alto>0.75</alto>
     </mesa3>
-    <mesa4 id="4" stock="0" unidad="cm">
+    <mesa4 id="4" stock="0" unidad="cm"> <!-- he decidido poner el atributo stock para que se pueda saber cuantas mesas, sillas, armarios y camas hay en stock -->
         <largo>1.5</largo>
         <ancho>0.8</ancho>
         <alto>0.75</alto>
@@ -28,7 +28,7 @@
     </mesa5>
 </mesas>
 <sillas>
-    <silla1 id="1" stock="10" unidad="cm">
+    <silla1 id="1" stock="10" unidad="cm"> <!-- he decidido poner el atributo unidad para que se pueda cambiar la unidad de medida de las mesas, sillas, armarios y camas -->
         <largo>0.5</largo>
         <ancho>0.5</ancho>
         <alto>1</alto>
