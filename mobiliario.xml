@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <mobiliario>
 <mesas>
     <mesa1 id="1" stock="5" unidad="cm">
@@ -45,24 +45,24 @@
         <ancho>1</ancho>
         <alto>2</alto>
     </armario1>
-    <armario2 id="2" stock="0">
+    <armario2 id="2" stock="0" unidad="cm">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>2</alto>
     </armario2>
-    <armario3 id="3" stock="0">
+    <armario3 id="3" stock="0" unidad="cm">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>2</alto>
     </armario3>
 </armarios>
 <camas>
-    <cama1 id="1" stock="0">
+    <cama1 id="1" stock="0" unidad="cm">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>0.5</alto>
     </cama1>
-    <cama2 id="2" stock="0">
+    <cama2 id="2" stock="0" unidad="cm">
         <largo>2</largo>
         <ancho>1</ancho>
         <alto>0.5</alto>
